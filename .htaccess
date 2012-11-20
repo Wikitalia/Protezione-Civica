@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteBase /mappa/
+
+#Foto segnalazione
+RewriteRule ^images/segnalazioni/(.*).jpg resize.php?s=$1 [L,QSA]
+
+
+#Segnalazione
+RewriteRule ^(.*)/(.*)/(.*)/(.*)/$ index.php?page=dettaglioSegnalazione&ids=$4 [L,QSA]
+
+#Pagine
+RewriteRule ^prehome/ index.php?page=prehome [L,QSA]
+RewriteRule ^principale/ index.php?page=principale [L,QSA]
+RewriteRule ^impostazioni/ index.php?page=impostazioni [L,QSA]
+RewriteRule ^logout/ index.php?page=logout [L,QSA]
+RewriteRule ^registrati/ index.php?page=registrati [L,QSA]
+RewriteRule ^conferma-registrazione/ index.php?page=confermaRegistrazione [L,QSA]
+RewriteRule ^pass-dimenticata/ index.php?page=passDimenticata [L,QSA]
+RewriteRule ^invia-segnalazione/ index.php?page=inviaSegnalazione [L,QSA]
+RewriteRule ^invia-buona-pratica/ index.php?page=inviaBuonaPratica [L,QSA]
+RewriteRule ^lista-segnalazioni/ index.php?page=listaSegnalazioni [L,QSA]
+RewriteRule ^dettaglio-segnalazione/ index.php?page=dettaglioSegnalazione [L,QSA]
+RewriteRule ^tos/ index.php?page=tos [L,QSA]
+RewriteRule ^cdu/ index.php?page=tos [L,QSA]
+RewriteRule ^privacy/ index.php?page=privacy [L,QSA]
+RewriteRule ^errore/ index.php?page=errore [L,QSA]
+RewriteRule ^pagina-non-trovata/ index.php?page=paginaNonTrovata [L,QSA]
+

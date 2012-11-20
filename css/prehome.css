@@ -1,0 +1,175 @@
+/*
+ * ----------------------------------------------------------------------------
+ * Decoro Urbano version 0.4.0
+ * ----------------------------------------------------------------------------
+ * Copyright Maiora Labs Srl (c) 2012
+ * ----------------------------------------------------------------------------   
+ * 
+ * This file is part of Decoro Urbano.
+ * 
+ * Decoro Urbano is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ * 
+ * Decoro Urbano is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ * 
+ * You should have received a copy of the GNU Affero General Public License
+ * along with Decoro Urbano.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+/* CSS Document */
+#bodyPrehome {
+	
+}
+	#topIntro, #midContainer {
+		margin:15px 0 0 0;
+		border-bottom:1px dotted #ccc;
+		padding-bottom:15px;
+		cursor:pointer;
+	} 
+
+ 		#cittadiniAttivi {
+ 			text-align:center;
+			font-size:16px;
+			color:#363636;
+			padding-bottom:15px;
+			border-bottom:1px dotted #ccc;
+ 		}
+		#cittadiniAttivi b{
+			font-size:55px;
+			font-family:Arial, Helvetica, sans-serif;
+			color:#f8692e;
+			}
+	
+		#leftMobile {
+			background:url(../images/prehome/prehomeMobile.png) no-repeat top center;
+			width:515px;
+			height:135px;
+			padding-top:270px;
+			cursor:pointer;
+		}
+		#rightRegister {
+			width:375px;
+			height:338px;
+			float:right;
+			background:url(../images/prehome/registratiBox.png) no-repeat;
+		}
+			#rightRegister h3 {
+				width:280px;
+				margin-left:30px;
+				padding:0;
+				font-size:16px;
+				font-family: 'Nunito';
+				font-weight:bold;
+				float:left;
+			}
+			#rightRegister #rightRegisterIntro {
+				width:320px;
+				margin:5px 0 10px 30px;
+				padding:0 0 5px 0;
+				float:left;
+				border-bottom:1px dotted #d7d7d7;
+			}
+			#rightRegister img {
+				float:right;
+				margin:12px 20px 0 0;
+			}
+			#rightRegister form {
+				display:block;
+				float:left;
+				margin:5px 0 0 30px;
+			}
+				#rightRegister form label {
+					display:block;
+					float:left;
+					width:110px;
+					text-align:right;
+					margin:5px 7px 0 0;
+				}
+				#rightRegister div {
+					margin-bottom:8px;
+				}
+				#rightRegister form input[type="text"], #rightRegister form input[type="password"] {
+					width:190px;
+					height:25px;
+					-webkit-box-shadow: 0 -1px 0 rgba(0, 0, 0, .1),inset 0 1px 2px rgba(0, 0, 0, .0);
+					-moz-box-shadow: 0 -1px 0 rgba(0, 0, 0, .1),inset 0 1px 2px rgba(0, 0, 0, .0);
+					box-shadow: 0 -1px 0 rgba(0, 0, 0, .1),inset 0 1px 2px rgba(0, 0, 0, .0);
+					background-color: white;
+					color: #5d5d5d;
+					opacity: .7;
+					
+					-webkit-transition: opacity 1s;
+					-moz-transition: opacity 1s;
+					-o-transition: opacity 1s;
+					-webkit-appearance: textfield;
+					padding: 1px;
+					border: 2px inset #e0e0e0;
+					-webkit-rtl-ordering: logical;
+					-webkit-user-select: text;
+					cursor: auto;
+	
+					background-color: #FAFAFA;
+					-webkit-border-radius: 8px;
+					border-radius: 8px;
+					margin-right:2px;
+				}
+			
+		#midBoxes {
+			margin-bottom:25px;
+		}
+			
+				#ultimeSegnalazioni {
+					width:920px;
+					padding:10px;
+					background:#f8f8f8;
+					border-radius:5px;
+					border:1px solid #dedede;
+				}
+				.ultimeSegnalazioni {
+					margin-bottom:9px;
+					padding-bottom:9px;
+				}
+					.ultimeSegnalazioni .leftAvatar {
+						width:40px;
+						padding-left:10px;
+					}
+					.ultimeSegnalazioni .rightContents {
+						width:390px;
+					}
+					
+
+			#twitterBox {
+				width:49%;
+				padding:0;
+			}
+				#twitterText {
+					width:690px;
+					font-size:15px;
+				}
+				#twitterFollowBox {
+					margin-top:5px; 
+					width:200px; 
+				}
+			
+			#bottomBox {
+				background:#f2f2f2;
+				padding:15px 15px 10px 15px;
+				width:910px;
+			}
+				#facebookBox {
+					width:410px;
+					float:right;
+					border-bottom: solid 1px #94A3C4;
+				}
+
+               #cittadiniAttivi i{
+                       font-size:10px;
+                       font-style:normal;
+                       line-height:22px;
+                       }
+					
